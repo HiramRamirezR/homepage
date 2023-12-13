@@ -9,12 +9,13 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
   
-    --primary-text-color: #181820;
-    --secondary-text-color: #5c5c62;
-    --durability-text-color: #6a737d9c;
-    --icon-color: #6a737d;
-    --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #c1c1c1;
+    --durability-text-color: #e6e7e89c;
+    --icon-color: #dfe0e0;
+    --border-color: #c8c8c845;
+    --text-decoration-color: #6aff00;
+    background-color: #2c2c2f;
   }
   
   .container {
@@ -37,8 +38,8 @@
   
   .resume {
     margin: 50px auto;
-    border: 1px solid #f5f5f5;
-    box-shadow: 1px 1px 7px 7px #f5f5f5;
+    border: 1px solid #494949;
+    box-shadow: 1px 1px 7px 7px #494949;
     padding: 30px 0;
     max-width: 900px;
   }
@@ -66,6 +67,23 @@
     .experiences {
       margin-right: 0;
     }
+  }
+
+  p {
+    color: white;
+  }
+
+  i {
+    color: white;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  span {
+    display: flex;
   }
 
 /*Contact info styles*/
